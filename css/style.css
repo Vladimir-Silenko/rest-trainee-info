@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+    background: rgb(250, 250, 250);
+    ;
+}
+
+.navbar {
+    display: flex;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(255, 183, 0, 1) 0%, rgba(219, 219, 219, 1) 100%);
+}
+
+ul {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+
+    padding: 10px;
+    list-style-type: none;
+    color: rgb(142, 102, 0);
+    ;
+
+}
+
+h2,
+h1,
+h3 {
+    margin: 10px 20px 20px 20px;
+    text-align: center;
+    color: rgb(102, 102, 102);
+}
+
+h1 {
+    animation: text 2s 1;
+}
+
+@keyframes text {
+    0% {
+        color: rgb(250, 250, 250);
+    }
+
+    100% {
+        color: rgb(102, 102, 102);
+        ;
+    }
+}
+
+
+.products-img {
+    height: 300px;
+    margin-top: 5px;
+}
+
+
+
+.hide {
+    visibility: hidden;
+}
+
+nav li:hover {
+    cursor: pointer;
+    background-color: rgb(225, 161, 0);
+}
+
+nav li:active {
+    cursor: pointer;
+    background-color: rgb(163, 117, 0);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    padding-top: 10px;
+    background: rgb(250, 250, 250);
+    ;
+
+}
+
+section {
+    flex: 1 1 auto;
+}
+
+footer {
+    height: 30px;
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(255, 183, 0, 1) 0%, rgba(219, 219, 219, 1) 100%);
+}
+
+/* -------------------- */
+.inner-div,
+.inner-div2 {
+    height: 100%;
+}
+
+
+/* RENDERING */
+
+.card-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    overflow: scroll;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    background: #fff;
+    height: 380px;
+    width: 300px;
+
+
+}
+
+.card-header {
+    font-weight: bold;
+    color: grey;
+}
+
+.card span {
+    margin-bottom: 10px;
+}
+
+.products-img {
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* SEARCHER */
+
+.searcher {
+    display: flex;
+    padding: 3px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.searcher img {
+    width: 20px;
+    opacity: 10;
+}
+
+
+
+.inp {
+    width: 1px;
+    height: 25px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.inputAnimation {
+    animation-name: prog;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes prog {
+    from {}
+
+    to {
+        width: 100px;
+    }
+}
+
+/* slider */
