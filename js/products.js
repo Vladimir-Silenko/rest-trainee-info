@@ -3,7 +3,7 @@ let MENU = [
     {
         id: 'snack',
         name: 'маринады',
-        img: '',
+        img: 'https://delivery.originalbelgian.ru/static/products/304f0cd7-c942-4b00-bbe7-3623f8398f02.jpg',
         contains: 'Капуста краснокочанная, огурцы кимчи, капуста цветная. Маринад: вода, чеснок, соль морская, перец чили, сахар.  Маринованные шампиньоны (горчичное масло, соль, соевый соус, кунжутное масло, мёд, тимьян, чеснок)',
         price: '450',
     },
@@ -35,7 +35,7 @@ let MENU = [
     {
         id: 'snack',
         name: 'Картофель-фри с трюфельным соусом и сыром пармезан',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk4pB7lW46cPJDhkXF3clOzfgHTbbn4cMCig&usqp=CAU',
+        img: 'https://delivery.originalbelgian.ru/static/products/0ed00890-6736-468d-9fe8-b28b7f0e267a.jpg',
         contains: 'Картофель фри обжаривается во фритюре. Замешивается с сыром Грана Падано и трюфельным маслом. Подается в сотейнике на деревянной доске вместе с трюфельным соусом (сливки, крем с шампиньонами и трюфелем).',
         price: 550 + ' ' + 'p',
     },
@@ -56,28 +56,28 @@ let MENU = [
     {
         id: 'snack',
         name: 'Креветки-фри с соусом Ким-Чи',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAPBgjdD1LsF20UFZuSk7gS48vqrKZjm1xlg&usqp=CAU',
+        img: 'https://delivery.originalbelgian.ru/static/products/eb5b3126-2426-4f70-86e0-486351c2f644.jpg',
         contains: 'Креветки (калибр 70/90 – цифры означают количество креветок на 1 кг), обваливаем в муке Семола (мука крупного помола из твердых сортов пшеницы), обжариваем во фритюре. Подаем с соусом Кимчи для креветок: Айоли (майонез, сметана, чеснок, тимьян) + кимчи + сладкий чили. ',
         price: 570 + ' ' + 'p',
     },
     {
         id: 'snack',
         name: 'Жареные креветки с чесноком и эстрагоном',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKHvhAa2rO6oJ-GQ6F83aK0M5GDEyUvpovwg&usqp=CAU',
+        img: 'pictures/креветки с эстрагоном.jpg',
         contains: 'Креветки тигровые без панциря, обжаренные на сливочном масле с добавлением белого вина, масла растительного, тайского рыбного соуса, чеснока и эстрагона. Подаются в глубокой тарелке с подсушенной чиабаттой.',
         price: 680 + ' ' + 'p',
     },
     {
         id: 'snack',
         name: 'Морковно-сельдереевые палочки',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc0Cx5uC3LoaMq8RT69pBDdgi6l_E0qmK8fQ&usqp=CAU',
+        img: 'https://delivery.originalbelgian.ru/static/products/f3f5ef24-ec33-4112-87a4-367c0ff6633c.jpg',
         contains: '',
         price: 190 + ' ' + 'p',
     },
     {
         id: 'snack',
         name: 'Батат фри с сырным соусом',
-        img: '',
+        img: 'pictures/батат.jpg',
         contains: 'Клубни батата, нарезанные соломкой, обжариваются во фритюре и подаются с соусом Дорблю (сливки, сыр дорблю)',
 
         price: 0,
@@ -85,7 +85,7 @@ let MENU = [
     {
         id: 'snack',
         name: 'Паштет из куриной печени, с компоте из вишни',
-        img: '',
+        img: 'https://delivery.originalbelgian.ru/static/products/3513a4ec-8f00-49ba-85d5-fcadfe667da8.jpg',
         contains: 'Куриная печень обжаривается с репчатым луком, белым вином, сливочным маслом и сливками. Далее блендеруется до однородной массы. Компоте* из вишни: мороженая вишня, ликер, сахар, пектин. Подаем с ржаным хлебом и украшаем микрозеленью.',
         price: 0,
     },
@@ -99,14 +99,14 @@ let MENU = [
     {
         id: 'snack',
         name: 'Бастурма',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtUewVqfy-VMcySFKcBXD912acl9lMKjgjkg&usqp=CAU',
+        img: 'https://delivery.originalbelgian.ru/static/products/43ea3f1f-2ab2-43df-8143-2890f560cad1.jpg',
         contains: '',
         price: 350 + ' ' + 'p',
     },
     {
         id: 'snack',
         name: 'Куриные крылышки',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSthkqK5udKz_HtHWb9sVTFCjCc5dSehkEJpg&usqp=CAU',
+        img: 'https://delivery.originalbelgian.ru/static/products/f2bf0cf4-b1f6-4805-aed1-fd402e8052b4.jpg',
         contains: 'Куриные крылья маринуются 12 часов в кисло-сладком соусе (репчатый лук, чили, паприка, оливковое масло, кетчуп, мед, консервированный ананас, соевый соус, имбирь), затем готовятся в течении 2-3 часов при низкой температуре в су-виде. При подаче крылья обжариваются во фритюре, затем глазируются на сковороде с кисло-сладким соусом, украшается кинзой.',
         price: 470 + ' ' + 'p',
     },
@@ -127,8 +127,38 @@ let MENU = [
     // Cалаты и старты
     {
         id: 'start',
+        name: 'тёплый салат с баклажанами и печёным перцем',
+        img: 'https://delivery.originalbelgian.ru/static/products/7a6c5741-8a91-4b16-bae4-8ab06c24cf85.jpg',
+        contains: '',
+        price: 0,
+    },
+    {
+        id: 'start',
+        name: 'Льежский салат с панчеттой и яйцом пашот',
+        img: 'https://delivery.originalbelgian.ru/static/products/b60a2b10-ccb5-4780-8f1e-d49c08845390.jpg',
+        contains: '',
+        price: 0,
+    },
+    {
+        id: 'start',
+        name: 'Салат боул с киноа, лососем, авокадо и черри',
+        img: 'https://delivery.originalbelgian.ru/static/products/b811328c-b73c-47b3-a4be-e584d0e21695.jpg',
+        contains: '',
+        price: 0,
+    },
+    {
+        id: 'start',
+        name: 'Оливье с копчёным куриным бедром',
+        img: 'https://delivery.originalbelgian.ru/static/products/0fd35ba2-3a6e-4c93-827c-f070281613a8.jpg',
+        contains: '',
+        price: 0,
+    },
+
+
+    {
+        id: 'start',
         name: 'Салат с баварскими колбасками',
-        img: '',
+        img: 'https://delivery.originalbelgian.ru/static/products/e3e88696-daa6-45a3-9584-1ee9825d9b22.jpeg',
         contains: '',
         price: 0,
     },
@@ -142,21 +172,21 @@ let MENU = [
     {
         id: 'start',
         name: 'Таратар из лосося',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTca-yrPGjom4NICi4gpdYp2KHPLoxk-_lraw&usqp=CAU',
+        img: 'https://delivery.originalbelgian.ru/static/products/e9d79738-8d7b-469a-adb7-9f30dc7cacee.jpg',
         contains: '',
         price: 0,
     },
     {
         id: 'start',
         name: 'Вителло тонато',
-        img: '',
+        img: 'https://delivery.originalbelgian.ru/static/products/d300ea02-818f-4a6b-b16b-b1feb833f86a.jpg',
         contains: '',
         price: 0,
     },
     {
         id: 'start',
         name: 'Салат с камчатским крабом',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjlKg9cGwQUmMQobCHUsIOn591CygeJuPWYQ&usqp=CAU',
+        img: 'https://delivery.originalbelgian.ru/static/products/39aa1030-ab01-4ab8-9bfb-a5a5f02b596e.jpg',
         contains: '',
         price: 0,
     },
@@ -164,14 +194,14 @@ let MENU = [
     {
         id: 'soup',
         name: 'Суп-гуляш по-фламандски',
-        img: '',
+        img: 'https://delivery.originalbelgian.ru/static/products/47cca6ac-cbc5-4a3d-96a2-86c04f1367ee.jpg)',
         contains: '',
         price: 0,
     },
     {
         id: 'soup',
         name: 'Рыбный ватерзой',
-        img: '',
+        img: 'https://delivery.originalbelgian.ru/static/products/ac4d0fc1-7d65-474e-9f8d-95553468179d.jpg',
         contains: '',
         price: 0,
     },
@@ -185,6 +215,51 @@ let MENU = [
     {
         id: 'soup',
         name: 'Куриный бульон по-антверпенски',
+        img: 'https://delivery.originalbelgian.ru/static/products/40455917-1d2d-4beb-b43f-578d46767f6b.jpg',
+        contains: '',
+        price: 0,
+    },
+    {
+        id: 'soup',
+        name: 'Грибная похлёбка',
+        img: 'https://delivery.originalbelgian.ru/static/products/5939b3b1-3a62-4acc-85d8-87c5a4747d54.jpg',
+        contains: '',
+        price: 0,
+    },
+    // БУРГЕРЫ
+    {
+        id: 'meat',
+        name: 'Брюггер с котлетой из говядины и картофелем фри',
+        img: 'https://delivery.originalbelgian.ru/static/products/2a43c874-e169-4bc2-86a9-6ad4ca56ec22.jpg',
+        contains: '',
+        price: 750 + ' ' + 'p',
+    },
+    {
+        id: 'meat',
+        name: 'Бургер beyond meat с растительной котлетой',
+        img: 'https://delivery.originalbelgian.ru/static/products/d42f757d-3ba6-450f-ae04-2d88890064ee.jpg',
+        contains: '',
+        price: 780 + ' ' + 'p',
+    },
+    {
+        id: 'meat',
+        name: 'Бургер техас с горгонзолой и яйцом пашот',
+        img: 'https://delivery.originalbelgian.ru/static/products/a3a2c94f-94dc-4b39-a992-48a7a685868d.jpg',
+        contains: '',
+        price: 690 + ' ' + 'p',
+    },
+    {
+        id: 'meat',
+        name: 'Бургер Цезарь',
+        img: 'https://delivery.originalbelgian.ru/static/products/6bef87e6-e2ba-46b2-a84f-249641a044ea.jpg)',
+        contains: '',
+        price: 550 + ' ' + 'p',
+    },
+
+    // СТЕЙКИ
+    {
+        id: '',
+        name: '',
         img: '',
         contains: '',
         price: 0,
