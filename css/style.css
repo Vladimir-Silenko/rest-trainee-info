@@ -11,27 +11,7 @@ body {
     ;
 }
 
-.navbar {
-    display: flex;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(255, 183, 0, 1) 0%, rgba(219, 219, 219, 1) 100%);
-}
 
-ul {
-    margin: 0 auto;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-}
-
-li {
-
-    padding: 10px;
-    list-style-type: none;
-    color: rgb(142, 102, 0);
-    ;
-
-}
 
 h2,
 h1,
@@ -56,26 +36,13 @@ h1 {
     }
 }
 
-
 .products-img {
     /* height: 300px; */
     margin-top: 5px;
 }
 
-
-
 .hide {
     visibility: hidden;
-}
-
-nav li:hover {
-    cursor: pointer;
-    background-color: rgb(225, 161, 0);
-}
-
-nav li:active {
-    cursor: pointer;
-    background-color: rgb(163, 117, 0);
 }
 
 .container {
@@ -84,8 +51,6 @@ nav li:active {
     min-height: 100%;
     padding-top: 10px;
     background: rgb(250, 250, 250);
-    ;
-
 }
 
 section {
@@ -97,62 +62,7 @@ footer {
     background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(255, 183, 0, 1) 0%, rgba(219, 219, 219, 1) 100%);
 }
 
-/* -------------------- */
-.inner-div,
-.inner-div2 {
-    height: 100%;
-}
-
-
-/* RENDERING */
-
-.card-section {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 30px;
-    /* display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; */
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.card {
-    overflow: scroll;
-    padding-bottom: 10px;
-    text-align: center;
-    margin: 20px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 5px;
-    background: #fff;
-    height: 400px;
-    width: 300px;
-    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-
-
-}
-
-.card-header {
-    font-weight: bold;
-    color: grey;
-}
-
-.card span {
-    margin-bottom: 10px;
-}
-
-.products-img {
-    width: 100%;
-    margin: 20px auto;
-}
-
 /* SEARCHER */
-
 .searcher {
     display: flex;
     padding: 3px;
@@ -164,8 +74,6 @@ footer {
     width: 20px;
     opacity: 10;
 }
-
-
 
 .inp {
     width: 1px;
@@ -190,5 +98,3 @@ footer {
         width: 100px;
     }
 }
-
-/* slider */

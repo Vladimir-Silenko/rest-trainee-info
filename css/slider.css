@@ -1,0 +1,32 @@
+.inner-card {
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    background: #fff;
+    height: 400px;
+    width: 300px;
+}
+
+.slider-line {
+    width: 200%;
+    display: flex;
+}
+
+.slider-line:hover {
+    animation-name: slide-left;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-left {
+    0% {}
+
+    100% {
+        margin-left: -300px;
+    }
+}
